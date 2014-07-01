@@ -8,6 +8,7 @@ git reset --hard origin/master
 git checkout -b %mydate%_%mytime% 
 
 ECHO Install tools locally
+call npm install bower
 call npm install yo
 call npm install generator-polymer
 
