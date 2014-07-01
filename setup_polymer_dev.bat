@@ -10,3 +10,5 @@ git checkout -b %mydate%_%mytime%
 ECHO Install tools locally
 call npm install yo
 call npm install generator-polymer
+
+node_modules\.bin\yo polymer:app < polymer-start.yo
