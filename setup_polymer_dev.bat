@@ -12,4 +12,5 @@ call npm install bower
 call npm install yo
 call npm install generator-polymer
 
-node_modules\.bin\yo polymer:app < polymer-start.yo
+SET PATH=%PATH%;node_modules\.bin
+yo polymer:app < polymer-start.yo
